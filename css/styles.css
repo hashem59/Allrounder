@@ -1,0 +1,302 @@
+
+html {
+    box-sizing: border-box;
+} 
+
+*,*:before,  *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+
+body {
+    font-family: Georgia;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+	z-index: 100;
+}
+
+
+@media only screen and (min-width: 993px){ .container{
+    width: 80%;
+	}}
+
+.active1 {
+    color:#7c9c37 !important;
+}
+
+.tp-bar {
+	height: 35px;
+	background-color: #fff;
+	
+}
+
+.tp-bar .container .row {
+	padding: 5px 0 !important;
+}
+
+.tp-bar a,.tp-bar a  {
+	color: #696969 !important;
+}
+
+.tp-bar p,.tp-bar input,form {
+	margin: 0 !important;
+}
+
+.tp-bar input[type="search"] {
+	height: 25px !important;
+	background-color: #e1e1e1;
+	border: 0 !important;
+	border-radius: 12px;
+	padding-left: 15px;
+	font-size: 14px;
+	box-sizing: border-box;
+}
+
+.tp-bar .row div:last-of-type {
+	position: relative;
+}
+
+.tp-bar i {
+position: absolute;
+    right: 17px;
+    top: 3px;
+    width: 19px;
+    height: 19px;
+    line-height: 20px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+	font-size: 13px !important;
+}
+
+
+
+nav {
+    background-color: #222222;
+    height: 85px;
+	border-bottom: 2px solid #7c9c37;
+}
+
+.logo{
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+
+.big_letter {
+    font-size: 40px !important;
+}
+
+ul li a {
+    font-size: 15px;
+    font-family: Georgia;
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left: 0;
+    padding-right: 0;
+}
+ul a:hover{
+    color:#7c9c37;
+}
+
+
+ul li span {
+    padding-right: 15px;
+    padding-left: 15px;
+    border-right: 1px solid #fff;
+}
+ul li:last-of-type span{
+    border: 0;
+}
+
+/* carousel section */ 
+
+.carousel-item:nth-of-type(2) {
+	background-image: url(../images/headerbackground1.png);
+	background-repeat: no-repeat;
+
+	background-size: cover;
+background-position:center;
+}
+
+.carousel-item:nth-of-type(3) img {
+	
+}
+
+
+
+.mid-text {
+	font-size: 25px;
+	color: #333333;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.bdr {
+      width: 50px;
+      height: 3px;
+      border-radius: 25px;
+	 border: 2px solid #e8e8e8;
+	margin-bottom: 40px;
+}
+
+.card-content {
+	padding: 15px !important;
+	background-color: #f0f0f0;
+}
+.card-content > a {
+	font-size: 18px !important;
+	font-weight: 400 !important;
+	color: #7c9c37;
+}
+
+.thrd-sect {
+	margin-bottom: 30px !important;
+}
+
+.card-content > p {
+	font-size: 12px !important;
+	font-weight: 400 !important;
+	color: #666666 !important;
+}
+/* End of cards Section */
+/* Start the 3rd Section */
+.thrd-sect .bdr {
+      width: 50px;
+      height: 3px;
+      border-radius: 25px;
+	 border: 2px solid #e8e8e8;
+	margin: 50px 0 40px 0;
+}
+
+.thrd-sect hr {
+	margin-bottom: 18px;
+	border-style: solid;
+	color: #e8e8e8
+}
+
+.thrd-sect p,h3,h6 {
+	color: #666666 !important;
+}
+
+.thrd-sect h3 {
+	font-size: 20px !important;
+}
+
+.thrd-sect img {
+	padding-right: 0px !important;
+}
+
+
+
+.thrd-sect .text-cnt h5 {
+	margin-top: 0 !important;
+	color: #7c9c37;
+	font-size: 20px;
+}
+
+.thrd-sect h6 {
+	padding: 10px 0 5px 0 ;
+}
+
+.thrd-sect h6 span {
+	font-weight: bold !important;
+}
+
+.thrd-sect h6 + a {
+	color: #7c9c37 !important;
+}
+
+/* Start footer Section */
+
+footer {
+	background-color: #222222;
+}
+
+footer .row {
+	padding: 50px 0;
+}
+
+footer h5 {
+	color: #666666;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+footer .container .row > div:nth-child(2) li a {
+	padding-left: 8px !important;
+
+}
+
+footer .container .row > div:nth-child(2) li {
+    border-bottom: 1px solid #666666;
+    padding: 6px 0 4px 0;
+	color: #666666;
+
+}
+
+footer a {
+	color: #7c9c37 !important;
+	font-size: 13px;
+}
+
+ul a:hover{
+	background-color: transparent;
+}
+
+footer p {
+	color: #666666;
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+footer h5 + img {
+	padding: 5px;
+	border: 1px solid #666;
+	margin: 17px 0;
+}
+
+footer .container .row > div:nth-child(3) p,footer .container .row > div:nth-child(4) p {
+	padding-top: 15px
+		
+}
+
+footer .container .row > div:nth-child(3) p :nth-child(1) {
+	font-weight: bold;
+	font-size: 14px;
+}
+
+footer .container .row > div:nth-child(3) p :nth-child(3) {
+	font-size: 11px;
+}
+
+footer .container .row > div:nth-child(3) p:last-of-type {
+	padding-top: 20px
+}
+
+footer .container .row > div:nth-child(4) p + h5 {
+	padding: 20px 0;
+}
+
+footer input {
+	background-color: #353535 !important;
+	border: 0 !important;
+	border-radius: 10px !important;
+	padding-left: 10px !important;
+}
+
+footer input[type="submit"] {
+	background-color: #7c9c37 !important;
+	color: #fff !important;
+	padding: 12px !important;
+	border-radius: 10px !important;
+	text-transform: uppercase;
+	font-weight: bold;
+}
